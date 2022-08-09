@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+body{
+    background-color:aliceblue;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+nav{
+    font-family: 'Rubik', sans-serif;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 60px;
+    background-color: black;
+    list-style: none;
+    color: #fff;
+
+}
+nav ul li{
+    padding:0 15px;
+}
+.brand {
+    display: flex;
+    align-items: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.brand img {
+     width: 64px;
+     /* border: 1px solid black;*/
+        border-radius: 50%;
+        padding: 0 10px;
+    }
+    .container{
+        min-height: 68vh;
+        background-color: black;
+        color: white;
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        margin: 14px auto;
+        width: 70%;
+        border-radius: 12px;
+        background-image: url('/img/cover1.jpg');
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+.bottom{
+    background-color: black;
+    color: white;
+    height: 110px;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}    
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+#myProgressBar {
+     width: 80%;
+     text-align: center;
+     cursor: pointer;
+}
+.songList{
+    margin-left: 15px;
+}
+.songItemContainer{
+    margin-top: 45px;
+}
+.songItem{
+    display: flex;
+    height: 50px;
+    width: 30vw;
+    background-color: white;
+    color: black;
+    margin: 14px 2px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+}
+.songItem img{
+        width:60px;
+        border-radius: 34px;
+        margin: 0 10px;
+}
+.songItem span{
+    /* display: flex;
+    flex-direction: row; */
+}
+.timespan{
+    margin:0 20px;
+    cursor: pointer;
+    
+}
+.timespan i{
+}
+.song-info{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Rubik', sans-serif;
+
+}
+.song-info img{
+     opacity: 0;
+     height: 15px;
+    transition: opacity 0.4s ease-in;
+    
+}
